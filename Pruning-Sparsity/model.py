@@ -4,7 +4,7 @@ import utils
 
 class VGG16(nn.Module):
     """
-    VGG11 model adapted for CIFAR-10 classification task or similar datasets with customizable input shape and number of classes.
+    VGG16 model adapted for CIFAR-10 classification task or similar datasets with customizable input shape and number of classes.
 
     Attributes:
         num_classes (int): Number of output classes. Defaults to 10 for CIFAR-10.
